@@ -7,7 +7,7 @@ Written by Jacobo Rouces <jacobo@rouces.org>.
 
 Implemented in Matlab+C.
 
-This is my Bachelor project, which I did several years ago, and I have decided to make open-source in case someone can make good use of it.
+This is my Bachelor project, which I did several years ago (2009), and I have decided to make open-source in case someone can make good use of it.
 
 It is a software system that makes use of stereoscopic vision through cheap off-the-shelf cameras, to offer a tridimensional Human Interface Device. In other words, the computer knows in real time the three-dimensional coordinates of a device held by the user, by using two or more webcams. So that the tracking may be done in real time, the devices are led lights (the real-time system uses low exposure to locate them easily). The more cameras, the more accurate is the min-square approximation of the position, and the more resilient to occlusion by the user's body the system becomes.
 
